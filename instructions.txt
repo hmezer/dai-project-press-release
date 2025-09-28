@@ -1,0 +1,10 @@
+INSTRUCTIONS TO REPLICATE THE WORKFLOW
+
+I have run `RUNME_data_extraction_.py` creating several terminals in the server to extract data from the Press Releases with the following command:
+```
+CHUNK=1 python RUNME_data_extraction_.py
+```
+which then will run for several tens of hours to extract the data from the press releases. Even though this is not possible to replicate, it is at least possible to run this script for several minutes to see the logs that indicate the extraction is happening without problem.
+
+Then, the Jupyter Notebook that I share contains all the relevant material that I also included in the presentations. To run this from start to end should be possible, given that these are done in the exact directory of the project folder that I have in the server under the name `smhuezer`.
+
